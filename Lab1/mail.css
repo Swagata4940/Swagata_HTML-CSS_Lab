@@ -1,0 +1,47 @@
+body ,html{
+    /* height: 100%; 
+    width: 100%;  */
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+#video{
+    position:fixed;
+}
+
+.container{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border: 2px solid blue;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+h2{
+    margin-left:50px ;
+    color: aliceblue;
+}
+
+input{
+    padding:8px ;
+    margin: 8px 50px;
+    width: 200px;
+    color: #000;
+
+}
+
+input:focus{
+    background-color:steelblue;
+    opacity: 0.35;
+}
+button{
+    margin-left:50px ;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    padding: 3px 12px;
+} 
